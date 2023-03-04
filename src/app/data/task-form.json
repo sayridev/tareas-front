@@ -1,0 +1,26 @@
+[
+    {
+        "type": "input",
+        "name": "description",
+        "placeholder": "Descripcion",
+        "label": "Descripcion",
+        "value": "",
+        "validations":[
+            {
+                "type":"required"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "status",
+        "label": "Estado",
+        "value": "pendiente",
+        "options": [
+            {"id":"pendiente", "label":"Pendiente"},
+            {"id":"en-progreso", "label":"En Progreso"},
+            {"id":"completado", "label":"Completado"} 
+        ]
+    }
+
+]

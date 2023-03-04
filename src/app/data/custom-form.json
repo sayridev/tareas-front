@@ -1,0 +1,42 @@
+[
+    {
+        "type": "input",
+        "name": "description",
+        "placeholder": "Descripcion",
+        "label": "Descripcion",
+        "value": "",
+        "validations":[
+            {
+                "type":"required"
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "note",
+        "placeholder": "Nota",
+        "label": "Nota",
+        "value": ""
+    },
+    {
+        "type": "input",
+        "name": "email",
+        "placeholder": "correo@google.com",
+        "label": "Correo",
+        "value": ""
+    },
+    {
+        "type": "select",
+        "name": "status",
+        "label": "Estado",
+        "value": "no-select",
+        "options": [
+            {"id":"Pendiente", "label":"Pendiente"},
+            {"id":"Progreso", "label":"En Progreso"},
+            {"id":"Completado", "label":"Completado"}
+
+           
+        ]
+    }
+
+]
